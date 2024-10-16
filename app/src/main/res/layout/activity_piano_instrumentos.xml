@@ -14,12 +14,13 @@
         android:layout_marginTop="95dp"
         android:layout_marginEnd="209dp"
         android:layout_marginBottom="16dp"
-        android:contentDescription="tecla de do"
+        android:contentDescription="ins tecla de do"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toStartOf="@+id/imageButton4"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:srcCompat="@drawable/do_s" />
+        app:srcCompat="@drawable/do_s"
+        android:onClick="ins_do"/>
 
     <ImageButton
         android:id="@+id/imageButton2"
@@ -32,7 +33,8 @@
         app:layout_constraintEnd_toStartOf="@+id/imageButton3"
         app:layout_constraintStart_toEndOf="@+id/imageButton"
         app:layout_constraintTop_toTopOf="parent"
-        app:srcCompat="@drawable/re_s" />
+        app:srcCompat="@drawable/re_s"
+        android:onClick="ins_re"/>
 
     <ImageButton
         android:id="@+id/imageButton3"
@@ -45,7 +47,8 @@
         app:layout_constraintEnd_toStartOf="@+id/imageButton4"
         app:layout_constraintStart_toEndOf="@+id/imageButton2"
         app:layout_constraintTop_toTopOf="parent"
-        app:srcCompat="@drawable/mi_s" />
+        app:srcCompat="@drawable/mi_s"
+        android:onClick="ins_mi"/>
 
     <ImageButton
         android:id="@+id/imageButton4"
@@ -57,7 +60,8 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toEndOf="@+id/imageButton"
         app:layout_constraintTop_toTopOf="@+id/imageButton3"
-        app:srcCompat="@drawable/fa_s" />
+        app:srcCompat="@drawable/fa_s"
+        android:onClick="ins_fa"/>
 
     <ImageButton
         android:id="@+id/imageButton5"
@@ -70,7 +74,8 @@
         app:layout_constraintEnd_toStartOf="@+id/imageButton6"
         app:layout_constraintStart_toEndOf="@+id/imageButton4"
         app:layout_constraintTop_toTopOf="parent"
-        app:srcCompat="@drawable/sol_s" />
+        app:srcCompat="@drawable/sol_s"
+        android:onClick="ins_sol"/>
 
     <ImageButton
         android:id="@+id/imageButton6"
@@ -83,7 +88,8 @@
         app:layout_constraintEnd_toStartOf="@+id/imageButton7"
         app:layout_constraintStart_toEndOf="@+id/imageButton5"
         app:layout_constraintTop_toTopOf="parent"
-        app:srcCompat="@drawable/la_s" />
+        app:srcCompat="@drawable/la_s"
+        android:onClick="ins_la"/>
 
     <ImageButton
         android:id="@+id/imageButton7"
@@ -96,5 +102,6 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toEndOf="@+id/imageButton6"
         app:layout_constraintTop_toTopOf="parent"
-        app:srcCompat="@drawable/si_s" />
+        app:srcCompat="@drawable/si_s"
+        android:onClick="ins_si"/>
 </androidx.constraintlayout.widget.ConstraintLayout>

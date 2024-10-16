@@ -1,10 +1,12 @@
 package sv.edu.itca.pianogrupo14;
 
 import android.content.Intent;
+import android.media.MediaPlayer;
 import android.os.Bundle;
 import android.view.Menu;
 import android.view.MenuInflater;
 import android.view.MenuItem;
+import android.view.View;
 import android.widget.Toast;
 
 import androidx.activity.EdgeToEdge;
@@ -54,5 +56,44 @@ public class PianoInstrumentos extends AppCompatActivity {
         } else {
             return super.onOptionsItemSelected(item);
         }
+    }
+
+    public void ins_do(View view) {
+        MediaPlayer ndo=MediaPlayer.create(this,R.raw.ins_do_guitarra);
+        ndo.start();
+        MessageBox("DO, GUITARRA");
+    }
+    public void ins_re(View view) {
+        MediaPlayer ndo=MediaPlayer.create(this,R.raw.ins_re_saxo);
+        ndo.start();
+        MessageBox("RE, SAXOFÓN");
+    }
+    public void ins_mi(View view) {
+        MediaPlayer ndo=MediaPlayer.create(this,R.raw.ins_mi_violin);
+        ndo.start();
+        MessageBox("MI, VIOLIN");
+    }
+    public void ins_fa(View view) {
+        MediaPlayer ndo=MediaPlayer.create(this,R.raw.ins_fa_arpa);
+        ndo.start();
+        MessageBox("FA, ARPA");
+    }
+    public void ins_sol(View view) {
+        MediaPlayer ndo=MediaPlayer.create(this,R.raw.ins_sol_trompeta);
+        ndo.start();
+        MessageBox("SOL, TROMPETA");
+    }
+    public void ins_la(View view) {
+        MediaPlayer ndo=MediaPlayer.create(this,R.raw.ins_la_bajo);
+        ndo.start();
+        MessageBox("LA, BAJO");
+    }
+    public void ins_si(View view) {
+        MediaPlayer ndo=MediaPlayer.create(this,R.raw.ins_si_elec_guitar);
+        ndo.start();
+        MessageBox("SI, GUITARRA ELECTRICA");
+    }
+    private void MessageBox(String mensaje) {
+        Toast.makeText(this,mensaje,Toast.LENGTH_SHORT).show();
     }
 }
