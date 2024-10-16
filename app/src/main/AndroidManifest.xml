@@ -13,12 +13,15 @@
         android:theme="@style/Theme.PianoGrupo14"
         tools:targetApi="31">
         <activity
+            android:name=".Piano_tradicional"
+            android:exported="false" />
+        <activity
             android:name=".PianoInstrumentos"
             android:exported="false" />
         <activity
             android:name=".MainActivity"
-            android:screenOrientation="landscape"
-            android:exported="true">
+            android:exported="true"
+            android:screenOrientation="landscape">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
