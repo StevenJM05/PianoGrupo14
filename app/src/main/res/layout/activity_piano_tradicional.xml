@@ -7,63 +7,64 @@
     tools:context=".MainActivity">
     <LinearLayout
         android:layout_width="match_parent"
-        android:layout_height="match_parent"
+        android:layout_height="wrap_content"
         android:layout_centerHorizontal="true"
         android:orientation="horizontal"
+        android:layout_alignParentBottom="true"
         tools:ignore="UselessParent">
 
         <ImageButton
-            android:layout_width="105dp"
-            android:layout_height="300dp"
-            android:layout_marginTop="80dp"
+            android:layout_width="116dp"
+            android:layout_height="240dp"
+            android:layout_marginTop="60dp"
             android:background="@drawable/d_o"
             android:onClick="d_o"
             tools:ignore="ButtonStyle,ContentDescription,SpeakableTextPresentCheck" />
 
         <ImageButton
-            android:layout_width="105dp"
-            android:layout_height="300dp"
-            android:layout_marginTop="80dp"
+            android:layout_width="116dp"
+            android:layout_height="240dp"
+            android:layout_marginTop="60dp"
             android:background="@drawable/re_"
             android:onClick="re"
             tools:ignore="ButtonStyle,ContentDescription,SpeakableTextPresentCheck,SpeakableTextPresentCheck" />
 
         <ImageButton
-            android:layout_width="105dp"
-            android:layout_height="300dp"
-            android:layout_marginTop="80dp"
+            android:layout_width="116dp"
+            android:layout_height="240dp"
+            android:layout_marginTop="60dp"
             android:background="@drawable/mi_"
             android:onClick="mi"
             tools:ignore="ButtonStyle,ContentDescription,SpeakableTextPresentCheck" />
 
         <ImageButton
-            android:layout_width="105dp"
-            android:layout_height="300dp"
-            android:layout_marginTop="80dp"
+            android:layout_width="116dp"
+            android:layout_height="240dp"
+            android:layout_marginTop="60dp"
             android:background="@drawable/fa_"
             android:onClick="fa"
             tools:ignore="ButtonStyle,ContentDescription,SpeakableTextPresentCheck,VisualLintBounds" />
 
         <ImageButton
-            android:layout_width="105dp"
-            android:layout_height="300dp"
-            android:layout_marginTop="80dp"
+            android:layout_width="116dp"
+            android:layout_height="240dp"
+            android:layout_marginTop="60dp"
             android:background="@drawable/sol_"
             android:onClick="sol"
             tools:ignore="ButtonStyle,ContentDescription,SpeakableTextPresentCheck,VisualLintBounds" />
 
         <ImageButton
-            android:layout_width="105dp"
-            android:layout_height="300dp"
-            android:layout_marginTop="80dp"
+            android:layout_width="116dp"
+            android:layout_height="240dp"
+            android:layout_marginTop="60dp"
             android:background="@drawable/la_"
             android:onClick="la"
             tools:ignore="ButtonStyle,ContentDescription,SpeakableTextPresentCheck,VisualLintBounds" />
 
         <ImageButton
-            android:layout_width="105dp"
-            android:layout_height="300dp"
-            android:layout_marginTop="80dp"
+            android:layout_width="116dp"
+            android:layout_height="240dp"
+            android:layout_marginTop="60dp"
             android:background="@drawable/si_"
             android:onClick="si"
             tools:ignore="ButtonStyle,ContentDescription,SpeakableTextPresentCheck,TouchTargetSizeCheck,VisualLintBounds" />
