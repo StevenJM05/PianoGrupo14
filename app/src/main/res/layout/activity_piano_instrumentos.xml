@@ -9,7 +9,7 @@
 
     <ImageButton
         android:id="@+id/imageButton"
-        android:layout_width="0dp"
+        android:layout_width="105dp"
         android:layout_height="300dp"
         android:layout_marginTop="95dp"
         android:layout_marginEnd="209dp"
@@ -23,15 +23,16 @@
 
     <ImageButton
         android:id="@+id/imageButton2"
-        android:layout_width="119dp"
+        android:layout_width="105dp"
         android:layout_height="300dp"
-        android:contentDescription="tecla de re"
-        app:layout_constraintTop_toTopOf="parent"
         android:layout_marginTop="95dp"
+        android:layout_marginBottom="16dp"
+        android:contentDescription="tecla de re"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toStartOf="@+id/imageButton3"
         app:layout_constraintStart_toEndOf="@+id/imageButton"
-        app:layout_constraintVertical_bias="1.0"
-        app:srcCompat="@drawable/re_s"
-        />
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/re_s" />
 
     <ImageButton
         android:id="@+id/imageButton3"
@@ -48,8 +49,8 @@
 
     <ImageButton
         android:id="@+id/imageButton4"
-        android:layout_width="0dp"
-        android:layout_height="0dp"
+        android:layout_width="105dp"
+        android:layout_height="300dp"
         android:layout_marginEnd="313dp"
         android:contentDescription="tecla de fa"
         app:layout_constraintBottom_toBottomOf="@+id/imageButton3"

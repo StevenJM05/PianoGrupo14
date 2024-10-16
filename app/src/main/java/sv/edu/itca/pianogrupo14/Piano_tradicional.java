@@ -42,7 +42,8 @@ public class Piano_tradicional extends AppCompatActivity {
             startActivity(intento1);
             return true;
         } else if (item.getItemId() == R.id.pianoInstrumentos) {
-            Toast.makeText(this, "Instrumentos seleccionado", Toast.LENGTH_SHORT).show();
+            Intent ventana3 = new Intent(this, PianoInstrumentos.class);
+            startActivity(ventana3);
             return true;
         } else if (item.getItemId() == R.id.menuopc1) {
             Toast.makeText(this, "Nosotros seleccionado", Toast.LENGTH_SHORT).show();
