@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:id="@+id/main"
@@ -7,13 +7,109 @@
     android:layout_height="match_parent"
     tools:context=".MainActivity">
 
-    <TextView
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="Hello World!"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
+    <ImageButton
+        android:id="@+id/bDetenerR"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_alignParentEnd="true"
+        android:layout_marginEnd="9dp"
+        android:contentDescription="@string/detener"
+        android:onClick="DetenerReproduccion"
+        android:src="@drawable/pare" />
 
-</androidx.constraintlayout.widget.ConstraintLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:orientation="horizontal"
+        >
+        <ImageButton
+            android:id="@+id/btn1"
+            android:src="@drawable/cabra"
+            android:layout_width="116dp"
+            android:layout_height="250dp"
+            android:layout_centerHorizontal="true"
+            android:background="@drawable/buttom_shape"
+            android:backgroundTint="#99a3a4"
+            android:onClick="sonidocabra"
+            tools:ignore="SpeakableTextPresentCheck"
+            />
+
+        <ImageButton
+            android:id="@+id/btn2"
+            android:src="@drawable/cerdo"
+            android:layout_width="116dp"
+            android:layout_height="250dp"
+            android:onClick="sonidocerdo"
+            android:backgroundTint="#f2d7d5"
+            tools:ignore="SpeakableTextPresentCheck"
+            tools:layout_editor_absoluteX="135dp"
+            tools:layout_editor_absoluteY="133dp"
+            android:background="@drawable/buttom_shape"/>
+
+        <ImageButton
+            android:id="@+id/btn3"
+            android:src="@drawable/gallina"
+            android:layout_width="116dp"
+            android:layout_height="250dp"
+            android:onClick="sonidogallina"
+            android:backgroundTint="#c0392b"
+            tools:ignore="SpeakableTextPresentCheck"
+            tools:layout_editor_absoluteX="226dp"
+            tools:layout_editor_absoluteY="133dp"
+            android:background="@drawable/buttom_shape"/>
+
+        <ImageButton
+            android:id="@+id/btn4"
+            android:src="@drawable/gato"
+            android:layout_width="116dp"
+            android:layout_height="250dp"
+            android:onClick="sonidogato"
+            android:backgroundTint="#dc7633"
+            tools:ignore="SpeakableTextPresentCheck"
+            tools:layout_editor_absoluteX="327dp"
+            tools:layout_editor_absoluteY="133dp"
+            android:background="@drawable/buttom_shape"/>
+
+        <ImageButton
+            android:id="@+id/btn5"
+            android:src="@drawable/leon"
+            android:layout_width="116dp"
+            android:layout_height="250dp"
+            android:onClick="sonidoleon"
+            android:backgroundTint="#f7dc6f"
+            tools:ignore="SpeakableTextPresentCheck"
+            tools:layout_editor_absoluteX="422dp"
+            tools:layout_editor_absoluteY="133dp"
+            android:background="@drawable/buttom_shape"/>
+
+        <ImageButton
+            android:id="@+id/btn6"
+            android:src="@drawable/perico"
+            android:layout_width="116dp"
+            android:layout_height="250dp"
+            android:onClick="sonidoperico"
+            android:backgroundTint="#008000"
+            tools:ignore="SpeakableTextPresentCheck"
+            tools:layout_editor_absoluteX="524dp"
+            tools:layout_editor_absoluteY="135dp"
+            android:background="@drawable/buttom_shape"
+            />
+
+        <ImageButton
+            android:id="@+id/btn7"
+            android:src="@drawable/perro"
+            android:layout_width="116dp"
+            android:layout_height="250dp"
+            android:onClick="sonidoperro"
+            android:backgroundTint="#808b96"
+            tools:ignore="SpeakableTextPresentCheck"
+            tools:layout_editor_absoluteX="626dp"
+            tools:layout_editor_absoluteY="135dp"
+            android:background="@drawable/buttom_shape"/>
+
+    </LinearLayout>
+</RelativeLayout>
+
+
