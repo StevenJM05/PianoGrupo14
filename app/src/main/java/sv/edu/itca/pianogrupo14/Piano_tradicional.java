@@ -35,18 +35,20 @@ public class Piano_tradicional extends AppCompatActivity {
     }
     public boolean onOptionsItemSelected(MenuItem item) {
         if (item.getItemId() == R.id.pianoTradicional) {
-            Toast.makeText(this, "Tradicional seleccionado", Toast.LENGTH_SHORT).show();
-            return true;
-        } else if (item.getItemId() == R.id.pianoSelva) {
-            Intent intento1 = new Intent(this, MainActivity.class);
+            Intent intento1 = new Intent(this, Piano_tradicional.class);
             startActivity(intento1);
             return true;
+        } else if (item.getItemId() == R.id.pianoSelva) {
+            Intent intento2 = new Intent(this, MainActivity.class);
+            startActivity(intento2);
+            return true;
         } else if (item.getItemId() == R.id.pianoInstrumentos) {
-            Intent ventana3 = new Intent(this, PianoInstrumentos.class);
-            startActivity(ventana3);
+            Intent intento3 = new Intent(this, PianoInstrumentos.class);
+            startActivity(intento3);
             return true;
         } else if (item.getItemId() == R.id.menuopc1) {
-            Toast.makeText(this, "Nosotros seleccionado", Toast.LENGTH_SHORT).show();
+            Intent intento4 = new Intent(this,acercade.class);
+            startActivity(intento4);
             return true;
         } else if (item.getItemId() == R.id.menuopc2) {
             finish();
