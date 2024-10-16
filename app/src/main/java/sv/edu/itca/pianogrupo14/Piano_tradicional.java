@@ -37,21 +37,29 @@ public class Piano_tradicional extends AppCompatActivity {
         if (item.getItemId() == R.id.pianoTradicional) {
             Intent intento1 = new Intent(this, Piano_tradicional.class);
             startActivity(intento1);
+            finish();
+
             return true;
         } else if (item.getItemId() == R.id.pianoSelva) {
             Intent intento2 = new Intent(this, MainActivity.class);
             startActivity(intento2);
+            finish();
+
             return true;
         } else if (item.getItemId() == R.id.pianoInstrumentos) {
             Intent intento3 = new Intent(this, PianoInstrumentos.class);
             startActivity(intento3);
+            finish();
+
             return true;
         } else if (item.getItemId() == R.id.menuopc1) {
             Intent intento4 = new Intent(this, acercade.class);
             startActivity(intento4);
+            finish();
+
             return true;
         } else if (item.getItemId() == R.id.menuopc2) {
-            finish();
+            System.exit(0);
             return true;
         } else {
             return super.onOptionsItemSelected(item);
