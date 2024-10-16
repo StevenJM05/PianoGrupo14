@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item
+        android:id="@+id/accionar"
+        android:title="@string/cambiar_el_tipo_de_piano"
+        app:showAsAction="never">
+        <menu>
+            <item
+                android:id="@+id/pianoTradicional"
+                android:title="@string/piano_tradicional" />
+            <item
+                android:id="@+id/pianoSelva"
+                android:title="@string/piano_infantil_de_selva" />
+            <item
+                android:id="@+id/pianoInstrumentos"
+                android:title="@string/piano_de_instrumentos" />
+        </menu>
+    </item>
+
+    <item
+        android:id="@+id/nosotros"
+        android:title="@string/acerca_de_nosotros"
+        app:showAsAction="never"        />
+
+    <item
+        android:id="@+id/salir"
+        android:title="@string/salir"
+        app:showAsAction="never" />
+
+</menu>

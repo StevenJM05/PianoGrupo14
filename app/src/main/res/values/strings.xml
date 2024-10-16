@@ -1,4 +1,10 @@
 <resources>
     <string name="app_name">PianoGrupo14</string>
     <string name="detener">detener</string>
+    <string name="acerca_de_nosotros">Acerca de nosotros</string>
+    <string name="salir">Salir</string>
+    <string name="piano_de_instrumentos">Piano de instrumentos</string>
+    <string name="piano_infantil_de_selva">Piano infantil de selva</string>
+    <string name="piano_tradicional">Piano tradicional</string>
+    <string name="cambiar_el_tipo_de_piano">Cambiar el tipo de piano</string>
 </resources>
