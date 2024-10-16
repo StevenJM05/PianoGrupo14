@@ -7,4 +7,17 @@
     <string name="piano_infantil_de_selva">Piano infantil de selva</string>
     <string name="piano_tradicional">Piano tradicional</string>
     <string name="cambiar_el_tipo_de_piano">Cambiar el tipo de piano</string>
+    <string name="pro_carlos1">pro_carlos1</string>
+    <string name="pro_gerson2">pro_gerson2</string>
+    <string name="pro_steven3">pro_steven3</string>
+    <string name="pro_manuel4">pro_manuel4</string>
+    <string name="team">TEAM</string>
+    <string name="carlos_antonio_sandoval_tadeo">Carlos Antonio Sandoval Tadeo</string>
+    <string name="programador_y_dise_ador">Programador y diseñador</string>
+    <string name="gerson_alexander_vasquez_lima">Gerson Alexander Vasquez Lima</string>
+    <string name="programador_y_diseniador">Programador y diseñador</string>
+    <string name="steven_alexis_martinez_jimenez">Steven Alexis Martinez Jimenez</string>
+    <string name="programador_y_dise_adorr">Programador y diseñador</string>
+    <string name="manuel_alexander_zepeda_grijalva">Manuel Alexander Zepeda Grijalva</string>
+    <string name="programador_y_diseneador">Programador y diseñador</string>
 </resources>

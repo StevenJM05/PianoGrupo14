@@ -47,7 +47,7 @@ public class Piano_tradicional extends AppCompatActivity {
             startActivity(intento3);
             return true;
         } else if (item.getItemId() == R.id.menuopc1) {
-            Intent intento4 = new Intent(this,acercade.class);
+            Intent intento4 = new Intent(this, acercade.class);
             startActivity(intento4);
             return true;
         } else if (item.getItemId() == R.id.menuopc2) {
