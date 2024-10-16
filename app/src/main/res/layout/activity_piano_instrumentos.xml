@@ -9,27 +9,29 @@
 
     <ImageButton
         android:id="@+id/imageButton"
-        android:layout_width="105dp"
+        android:layout_width="0dp"
         android:layout_height="300dp"
         android:layout_marginTop="95dp"
+        android:layout_marginEnd="209dp"
         android:layout_marginBottom="16dp"
+        android:contentDescription="tecla de do"
         app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toStartOf="@+id/imageButton2"
+        app:layout_constraintEnd_toStartOf="@+id/imageButton4"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:srcCompat="@drawable/Do" />
+        app:srcCompat="@drawable/do_s" />
 
     <ImageButton
         android:id="@+id/imageButton2"
-        android:layout_width="105dp"
+        android:layout_width="119dp"
         android:layout_height="300dp"
-        android:layout_marginTop="95dp"
-        android:layout_marginBottom="16dp"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toStartOf="@+id/imageButton3"
-        app:layout_constraintStart_toEndOf="@+id/imageButton"
+        android:contentDescription="tecla de re"
         app:layout_constraintTop_toTopOf="parent"
-        app:srcCompat="@drawable/Re" />
+        android:layout_marginTop="95dp"
+        app:layout_constraintStart_toEndOf="@+id/imageButton"
+        app:layout_constraintVertical_bias="1.0"
+        app:srcCompat="@drawable/re_s"
+        />
 
     <ImageButton
         android:id="@+id/imageButton3"
@@ -37,19 +39,24 @@
         android:layout_height="300dp"
         android:layout_marginTop="95dp"
         android:layout_marginBottom="16dp"
+        android:contentDescription="tecla de mi"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toStartOf="@+id/imageButton4"
         app:layout_constraintStart_toEndOf="@+id/imageButton2"
         app:layout_constraintTop_toTopOf="parent"
-        app:srcCompat="@drawable/Mi" />
+        app:srcCompat="@drawable/mi_s" />
 
     <ImageButton
         android:id="@+id/imageButton4"
-        android:layout_width="105dp"
-        android:layout_height="300dp"
-        app:srcCompat="@drawable/Fa"
-        tools:layout_editor_absoluteX="313dp"
-        tools:layout_editor_absoluteY="95dp" />
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_marginEnd="313dp"
+        android:contentDescription="tecla de fa"
+        app:layout_constraintBottom_toBottomOf="@+id/imageButton3"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/imageButton"
+        app:layout_constraintTop_toTopOf="@+id/imageButton3"
+        app:srcCompat="@drawable/fa_s" />
 
     <ImageButton
         android:id="@+id/imageButton5"
@@ -57,11 +64,12 @@
         android:layout_height="300dp"
         android:layout_marginTop="95dp"
         android:layout_marginBottom="16dp"
+        android:contentDescription="tecla de sol"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toStartOf="@+id/imageButton6"
         app:layout_constraintStart_toEndOf="@+id/imageButton4"
         app:layout_constraintTop_toTopOf="parent"
-        app:srcCompat="@drawable/Sol" />
+        app:srcCompat="@drawable/sol_s" />
 
     <ImageButton
         android:id="@+id/imageButton6"
@@ -69,11 +77,12 @@
         android:layout_height="300dp"
         android:layout_marginTop="95dp"
         android:layout_marginBottom="16dp"
+        android:contentDescription="tecla de la"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toStartOf="@+id/imageButton7"
         app:layout_constraintStart_toEndOf="@+id/imageButton5"
         app:layout_constraintTop_toTopOf="parent"
-        app:srcCompat="@drawable/La" />
+        app:srcCompat="@drawable/la_s" />
 
     <ImageButton
         android:id="@+id/imageButton7"
@@ -81,9 +90,10 @@
         android:layout_height="300dp"
         android:layout_marginTop="95dp"
         android:layout_marginBottom="16dp"
+        android:contentDescription="tecla de si"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toEndOf="@+id/imageButton6"
         app:layout_constraintTop_toTopOf="parent"
-        app:srcCompat="@drawable/Si" />
+        app:srcCompat="@drawable/si_s" />
 </androidx.constraintlayout.widget.ConstraintLayout>

@@ -4,7 +4,7 @@
     xmlns:app="http://schemas.android.com/apk/res-auto">
 
     <item
-        android:id="@+id/accionar"
+        android:id="@+id/famenu"
         android:title="@string/cambiar_el_tipo_de_piano"
         app:showAsAction="never">
         <menu>
@@ -21,12 +21,12 @@
     </item>
 
     <item
-        android:id="@+id/nosotros"
+        android:id="@+id/menuopc1"
         android:title="@string/acerca_de_nosotros"
         app:showAsAction="never"        />
 
     <item
-        android:id="@+id/salir"
+        android:id="@+id/menuopc2"
         android:title="@string/salir"
         app:showAsAction="never" />
 

@@ -1,7 +1,11 @@
 package sv.edu.itca.pianogrupo14;
 
+import android.content.Intent;
 import android.media.MediaPlayer;
 import android.os.Bundle;
+import android.view.Menu;
+import android.view.MenuInflater;
+import android.view.MenuItem;
 import android.view.View;
 import android.widget.Toast;
 
@@ -23,6 +27,32 @@ public class Piano_tradicional extends AppCompatActivity {
             v.setPadding(systemBars.left, systemBars.top, systemBars.right, systemBars.bottom);
             return insets;
         });
+    }
+    public boolean onCreateOptionsMenu(Menu menu) {
+        MenuInflater inflater = getMenuInflater();
+        inflater.inflate(R.menu.menu, menu);
+        return true;
+    }
+    public boolean onOptionsItemSelected(MenuItem item) {
+        if (item.getItemId() == R.id.pianoTradicional) {
+            Toast.makeText(this, "Tradicional seleccionado", Toast.LENGTH_SHORT).show();
+            return true;
+        } else if (item.getItemId() == R.id.pianoSelva) {
+            Intent intento1 = new Intent(this, MainActivity.class);
+            startActivity(intento1);
+            return true;
+        } else if (item.getItemId() == R.id.pianoInstrumentos) {
+            Toast.makeText(this, "Instrumentos seleccionado", Toast.LENGTH_SHORT).show();
+            return true;
+        } else if (item.getItemId() == R.id.menuopc1) {
+            Toast.makeText(this, "Nosotros seleccionado", Toast.LENGTH_SHORT).show();
+            return true;
+        } else if (item.getItemId() == R.id.menuopc2) {
+            finish();
+            return true;
+        } else {
+            return super.onOptionsItemSelected(item);
+        }
     }
     private void MessageBox(String mensaje) {
         Toast.makeText(this,mensaje,Toast.LENGTH_SHORT).show();
